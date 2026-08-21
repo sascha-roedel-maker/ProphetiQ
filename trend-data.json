@@ -1,0 +1,401 @@
+{
+  "version": 2,
+  "updated": "2026-08-21",
+  "method": "QULORA Trend Intelligence gewichtet Aktualität, mehrere voneinander unabhängige Quellen und Relevanz für Betriebsgastronomie. Signalstärken sind Orientierung, keine Marktanteile oder Absatzgarantien.",
+  "signals_now": [
+    {
+      "id": "international-comfort",
+      "icon": "◎",
+      "title": "Internationale Comfort-Foods",
+      "strength": 5,
+      "label": "sehr stark",
+      "summary": "Bowls, Asia-Nudeln, Burritos/Fajitas und global inspirierte Gerichte sind in Betriebsrestaurants fest angekommen – neben Klassikern wie Bolognese und Currywurst.",
+      "tags": [
+        "asia",
+        "thai",
+        "teriyaki",
+        "bowl",
+        "burrito",
+        "fajita",
+        "mexican",
+        "mexikanisch",
+        "shawarma",
+        "pho",
+        "international",
+        "nudel"
+      ],
+      "sources": [
+        "sodexo2025",
+        "niq2026"
+      ]
+    },
+    {
+      "id": "protein-wholefood",
+      "icon": "P",
+      "title": "Protein + echte Zutaten",
+      "strength": 4,
+      "label": "stark",
+      "summary": "Natürliche Proteinquellen wie Hülsenfrüchte, Geflügel, Fisch, Tofu und Milchprodukte werden als moderne, sättigende und gesundheitsnahe Angebote inszeniert.",
+      "tags": [
+        "protein",
+        "linse",
+        "linsen",
+        "kicher",
+        "bohne",
+        "edamame",
+        "huhn",
+        "hähnchen",
+        "geflügel",
+        "tofu",
+        "fisch"
+      ],
+      "sources": [
+        "aramarkProtein",
+        "mckinsey2026"
+      ]
+    },
+    {
+      "id": "plant-forward",
+      "icon": "↗",
+      "title": "Plant-forward statt Verzicht",
+      "strength": 4,
+      "label": "stark",
+      "summary": "Pflanzliche Basis, flexible Add-ons und flexitarische Auswahl gewinnen weiter – Geschmack und Sättigung bleiben entscheidend.",
+      "tags": [
+        "veggie",
+        "vegan",
+        "pflanz",
+        "gemüse",
+        "linsen",
+        "kicher",
+        "tofu",
+        "bowl"
+      ],
+      "sources": [
+        "sodexo2025",
+        "mckinsey2026",
+        "compass2026"
+      ]
+    },
+    {
+      "id": "fast-modular",
+      "icon": "→",
+      "title": "Schnell, modular, flexibel",
+      "strength": 4,
+      "label": "stark",
+      "summary": "Zeitdruck fördert Bowls, Wraps, Sushi, Snacks und kombinierbare Angebote, die schnell verfügbar und individuell anpassbar sind.",
+      "tags": [
+        "wrap",
+        "bowl",
+        "snack",
+        "sushi",
+        "street",
+        "salat",
+        "modular"
+      ],
+      "sources": [
+        "compass2026",
+        "niq2026"
+      ]
+    }
+  ],
+  "signals_next": [
+    {
+      "id": "texture-crunch",
+      "icon": "✦",
+      "title": "Textur & Crunch",
+      "strength": 4,
+      "label": "steigend",
+      "summary": "Knusprige Toppings, Panaden, Nüsse und bewusste Texturkontraste werden gezielt eingesetzt, um Essen emotionaler und sensorischer zu machen.",
+      "tags": [
+        "crispy",
+        "crunch",
+        "knusper",
+        "paniert",
+        "topping",
+        "nuss",
+        "nüsse",
+        "röst"
+      ],
+      "sources": [
+        "aramarkCrunch",
+        "mintel2026"
+      ]
+    },
+    {
+      "id": "fiber-functional",
+      "icon": "F",
+      "title": "Fiber + Functional",
+      "strength": 4,
+      "label": "steigend",
+      "summary": "Neben Protein rücken Ballaststoffe, Hülsenfrüchte und funktionale Ernährung stärker in den Fokus – ohne den Genussanspruch zu verlieren.",
+      "tags": [
+        "linse",
+        "linsen",
+        "kicher",
+        "bohne",
+        "vollkorn",
+        "ballast",
+        "probiot",
+        "quinoa",
+        "hafer"
+      ],
+      "sources": [
+        "mckinsey2026",
+        "mintel2026"
+      ]
+    },
+    {
+      "id": "retro-reframed",
+      "icon": "↺",
+      "title": "Retro neu gedacht",
+      "strength": 3,
+      "label": "beobachten",
+      "summary": "Vertraute Klassiker bleiben stark, werden aber leichter, pflanzlicher, internationaler oder moderner inszeniert.",
+      "tags": [
+        "bolognese",
+        "currywurst",
+        "schnitzel",
+        "burger",
+        "klassiker",
+        "eintopf"
+      ],
+      "sources": [
+        "mintel2026",
+        "sodexo2025"
+      ]
+    },
+    {
+      "id": "micro-snacking",
+      "icon": "⋯",
+      "title": "Micro-Snacking & Tagesversorgung",
+      "strength": 4,
+      "label": "steigend",
+      "summary": "Häufigere kleine Essensmomente und flexible Verpflegung ergänzen das klassische Mittagessen – vor allem bei jüngeren Beschäftigten.",
+      "tags": [
+        "snack",
+        "wrap",
+        "bowl",
+        "mini",
+        "fingerfood",
+        "to-go"
+      ],
+      "sources": [
+        "compass2026",
+        "niq2026"
+      ]
+    }
+  ],
+  "bestsellers": [
+    {
+      "name": "Spaghetti Bolognese",
+      "line": "Crossover",
+      "source": "sodexo2025",
+      "production": true,
+      "office": true,
+      "note": "Publizierter Branchen-Favorit 2025"
+    },
+    {
+      "name": "Currywurst",
+      "line": "Fastfood",
+      "source": "sodexo2025",
+      "production": true,
+      "office": false,
+      "note": "Besonders passend für Produktionsumfelder"
+    },
+    {
+      "name": "Bowls & Salate",
+      "line": "Grünwerk",
+      "source": "sodexo2025",
+      "production": false,
+      "office": true,
+      "note": "Leicht, flexibel und modular"
+    },
+    {
+      "name": "Burger",
+      "line": "Fastfood",
+      "source": "sodexo2025",
+      "production": true,
+      "office": true,
+      "note": "Bekannter Klassiker mit vielen Varianten"
+    },
+    {
+      "name": "Burrito / Fajita",
+      "line": "Crossover",
+      "source": "sodexo2025",
+      "production": false,
+      "office": true,
+      "note": "Internationaler Comfort-Food-Favorit"
+    },
+    {
+      "name": "Asia-Nudeln",
+      "line": "Crossover",
+      "source": "sodexo2025",
+      "production": true,
+      "office": true,
+      "note": "International und schnell kombinierbar"
+    }
+  ],
+  "inspirations": [
+    {
+      "name": "Hähnchen-Shawarma mit Hummus & Taboulé",
+      "line": "Crossover",
+      "signal": "Protein × International",
+      "sources": [
+        "aramarkProtein"
+      ],
+      "tags": [
+        "protein",
+        "international",
+        "shawarma"
+      ]
+    },
+    {
+      "name": "Plant-based Pho mit Tofu & Edamame",
+      "line": "Grünwerk",
+      "signal": "Plant-forward × Protein",
+      "sources": [
+        "aramarkProtein"
+      ],
+      "tags": [
+        "vegan",
+        "protein",
+        "pho",
+        "tofu",
+        "edamame"
+      ]
+    },
+    {
+      "name": "Asia-Nudelpfanne mit Wokgemüse",
+      "line": "Crossover",
+      "signal": "International × Convenience",
+      "sources": [
+        "sodexo2025",
+        "niq2026"
+      ],
+      "tags": [
+        "asia",
+        "nudel",
+        "international"
+      ]
+    },
+    {
+      "name": "Burrito Bowl mit Bohnen, Reis & Salsa",
+      "line": "Crossover",
+      "signal": "Bowl × International × Fiber",
+      "sources": [
+        "sodexo2025",
+        "mckinsey2026"
+      ],
+      "tags": [
+        "burrito",
+        "bowl",
+        "bohne",
+        "fiber"
+      ]
+    },
+    {
+      "name": "Linsen-Bowl mit Crunch-Topping",
+      "line": "Grünwerk",
+      "signal": "Fiber × Crunch",
+      "sources": [
+        "aramarkCrunch",
+        "mckinsey2026"
+      ],
+      "tags": [
+        "linsen",
+        "bowl",
+        "crunch"
+      ]
+    },
+    {
+      "name": "Crispy Chicken mit frischem Slaw",
+      "line": "Fastfood",
+      "signal": "Comfort × Crunch",
+      "sources": [
+        "aramarkCrunch",
+        "mintel2026"
+      ],
+      "tags": [
+        "crispy",
+        "hähnchen",
+        "comfort"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "sodexo2025",
+      "publisher": "Sodexo Deutschland",
+      "title": "Beliebteste Gerichte 2025 im Betriebsrestaurant",
+      "date": "2026-01-07",
+      "type": "GV-Verkaufs-/Beliebtheitsauswertung",
+      "url": "https://www.sodexo.de/presse/2026/beliebteste-gerichte-2025"
+    },
+    {
+      "id": "aramarkProtein",
+      "publisher": "Aramark Deutschland",
+      "title": "Protein Power",
+      "date": "2026-04",
+      "type": "GV-Aktions- und Trendkonzept",
+      "url": "https://www.aramark.de/newsroom/Aramark-praesentiert-Genuss-in-Bestform"
+    },
+    {
+      "id": "aramarkCrunch",
+      "publisher": "Aramark Deutschland",
+      "title": "Crispy & Crunch",
+      "date": "2026-02",
+      "type": "GV-Aktions- und Trendkonzept",
+      "url": "https://www.aramark.de/newsroom/Buehne-frei-fuer-den-Crunch"
+    },
+    {
+      "id": "compass2026",
+      "publisher": "Compass Group Deutschland",
+      "title": "Global Eating at Work 2025 – Deutschland",
+      "date": "2026",
+      "type": "Workplace-Food-Studie",
+      "url": "https://www.compass-group.de/newsroom/compass-studie-global-eating-at-work-2025-pausenkultur-in-deutschland-unter-druck"
+    },
+    {
+      "id": "mckinsey2026",
+      "publisher": "McKinsey Deutschland",
+      "title": "Clean, Green, Protein: Food-Trends 2026",
+      "date": "2026-07-09",
+      "type": "Konsumenten- und Zukunftstrend",
+      "url": "https://www.mckinsey.com/de/branchen/konsumguter-handel/akzente/akzente-1-2026/261-food-trends-2026"
+    },
+    {
+      "id": "niq2026",
+      "publisher": "NIQ Deutschland",
+      "title": "Ernährungstrends 2026: Zeitdruck, Gesundheit, Convenience",
+      "date": "2026-03-12",
+      "type": "Markt-/Konsumtrend",
+      "url": "https://nielseniq.com/global/de/news-center/2026/zwischen-zeitdruck-sparzwang-und-gesundheitsbewusstsein/"
+    },
+    {
+      "id": "mintel2026",
+      "publisher": "Mintel Deutschland",
+      "title": "Globale Food & Drink Trends 2026",
+      "date": "2025-10",
+      "type": "Zukunftstrend",
+      "url": "https://www.mintel.com/de/press-centre/globale-food-drink-trends-2026/"
+    }
+  ],
+  "automation": {
+    "enabled": true,
+    "cadence": "weekly",
+    "weekday": "Sunday",
+    "timezone": "Europe/Berlin",
+    "mode": "trusted-source public web scan",
+    "discovery": "GDELT DOC 2.0",
+    "last_run": null,
+    "trusted_domain_count": 12,
+    "article_count": 0,
+    "quality_rule": "Nur Allowlist-Domains; keine automatischen Verkaufsquoten; Trend-Signale bleiben redaktionell begrenzt."
+  },
+  "weekly_pulse": {
+    "generated": null,
+    "topics": [],
+    "articles": []
+  }
+}
