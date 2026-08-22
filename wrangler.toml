@@ -1,0 +1,11 @@
+name = "qulora-ai"
+main = "qulora-ai-worker.js"
+compatibility_date = "2026-08-21"
+
+[vars]
+OPENAI_MODEL = "gpt-5.6-terra"
+ALLOWED_ORIGINS = "https://sascha-roedel-maker.github.io,http://localhost:8000,http://127.0.0.1:8000"
+
+# API-Key NICHT hier eintragen.
+# Sicher als Secret setzen:
+#   npx wrangler secret put OPENAI_API_KEY
