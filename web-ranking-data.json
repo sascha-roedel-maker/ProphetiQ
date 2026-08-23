@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "updated": "2026-08-23",
+  "method": "QULORA Web-Ranking: öffentliche Signale aus Betriebsgastronomie und Foodservice werden auf ein einheitliches Tag-System normalisiert. Die sichtbaren Plätze entstehen ausschließlich aus diesen Web-Signalen; interne Scores werden nicht angezeigt.",
+  "taxonomy": {
+    "aliases": {
+      "plant based": "vegan",
+      "plant-based": "vegan",
+      "pflanzlich": "vegan",
+      "veggie": "vegetarisch",
+      "vegetarian": "vegetarisch",
+      "vegan": "vegan",
+      "beef": "rind",
+      "pork": "schwein",
+      "chicken": "geflügel",
+      "poultry": "geflügel",
+      "fish": "fisch",
+      "street food": "streetfood",
+      "street-food": "streetfood",
+      "fast food": "fastfood",
+      "fast-food": "fastfood"
+    },
+    "categories": {
+      "Fastfood": {
+        "include_any": ["fastfood", "streetfood", "burger", "wurst", "schnitzel", "frikadelle", "gyros", "cordon-bleu", "fleischkaese", "hotdog", "burrito", "fajita"]
+      },
+      "Vegetarisch": {
+        "include_any": ["vegetarisch", "vegan"]
+      },
+      "Vegan": {
+        "include_any": ["vegan"]
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "sodexo2025",
+      "publisher": "Sodexo Deutschland",
+      "title": "Beliebteste Gerichte 2025 im Betriebsrestaurant",
+      "date": "2026-01-07",
+      "type": "Beliebtheitsauswertung Betriebsgastronomie",
+      "url": "https://www.sodexo.de/presse/2026/beliebteste-gerichte-2025"
+    },
+    {
+      "id": "kluehVeganuary2026",
+      "publisher": "Klüh Catering",
+      "title": "Veganuary 2026 · Pflanzliche Vielfalt in Betriebsrestaurants",
+      "date": "2026-02-11",
+      "type": "Aktionsauswertung Betriebsgastronomie",
+      "url": "https://www.klueh.de/aktuelles/klueh4all/blog/veganuary-2026-pflanzliche-vielfalt-in-den-klueh-betriebsrestaurants"
+    },
+    {
+      "id": "kluehSummer2026",
+      "publisher": "Klüh Catering",
+      "title": "WE LOVE GREEN Summer-Bowls 2026",
+      "date": "2026-06-29",
+      "type": "Gästeresonanz / Aktionsauswertung",
+      "url": "https://www.klueh.de/aktuelles/klueh4all/blog/sommerlicher-genuss-mit-den-we-love-green-summer-bowls"
+    },
+    {
+      "id": "aramarkProtein2026",
+      "publisher": "Aramark Deutschland",
+      "title": "Protein Power 2026",
+      "date": "2026-04-13",
+      "type": "Kulinarische Aktion Betriebsgastronomie",
+      "url": "https://www.aramark.de/newsroom/Aramark-praesentiert-Genuss-in-Bestform"
+    },
+    {
+      "id": "sodexoGoodBytz",
+      "publisher": "Sodexo Deutschland",
+      "title": "GoodBytz · Speisekarten-Auszug",
+      "date": "2026-08-01",
+      "type": "Aktuelles Foodservice-Angebot",
+      "url": "https://www.sodexo.de/services-brands/food-services/goodbytz"
+    },
+    {
+      "id": "cateringPlant2026",
+      "publisher": "Catering Management",
+      "title": "Pflanzliche Küche als neuer Standard",
+      "date": "2026-07-22",
+      "type": "Branchenbeitrag Betriebsgastronomie",
+      "url": "https://catering.de/aktuelles/pflanzliche-kueche-als-neuer-standard-wie-betriebsgastronomie-den-kulturwandel-aktiv-gestaltet/"
+    },
+    {
+      "id": "kluehFast2022",
+      "publisher": "Klüh Catering",
+      "title": "ESSBAR 24/7 · Betriebsverpflegung",
+      "date": "2022-01-01",
+      "type": "Betriebsgastronomie / Automatenverpflegung",
+      "url": "https://www.klueh.de/fileadmin/user_upload/klueh_de/documents/Publikationen/Magazin_Klueh_Genusswelten_01_22.pdf"
+    }
+  ],
+  "items": [
+    {
+      "name": "Spaghetti Bolognese",
+      "line": "Crossover",
+      "tags": ["pasta", "rind", "fleisch", "comfort", "italienisch", "production-fit", "office-fit"],
+      "evidence": [{"source": "sodexo2025", "kind": "published_rank", "rank": 1}]
+    },
+    {
+      "name": "Currywurst",
+      "line": "Fastfood",
+      "tags": ["wurst", "schwein", "fastfood", "comfort", "deutsch", "production-fit"],
+      "evidence": [
+        {"source": "sodexo2025", "kind": "published_rank", "rank": 2},
+        {"source": "kluehFast2022", "kind": "featured"}
+      ]
+    },
+    {
+      "name": "Bowls & Salate",
+      "line": "Grünwerk",
+      "tags": ["bowl", "salat", "plant-forward", "modular", "office-fit"],
+      "evidence": [{"source": "sodexo2025", "kind": "published_rank", "rank": 3}]
+    },
+    {
+      "name": "Burger",
+      "line": "Fastfood",
+      "tags": ["burger", "fastfood", "streetfood", "comfort", "production-fit", "office-fit"],
+      "evidence": [{"source": "sodexo2025", "kind": "published_rank", "rank": 4}]
+    },
+    {
+      "name": "Burrito / Fajita",
+      "line": "Crossover",
+      "tags": ["burrito", "fajita", "wrap", "fastfood", "streetfood", "mexikanisch", "international", "office-fit"],
+      "evidence": [{"source": "sodexo2025", "kind": "published_rank", "rank": 5}]
+    },
+    {
+      "name": "Asia-Nudel-Variationen",
+      "line": "Crossover",
+      "tags": ["nudeln", "asiatisch", "international", "office-fit", "production-fit"],
+      "evidence": [{"source": "sodexo2025", "kind": "published_rank", "rank": 6}]
+    },
+    {
+      "name": "Schnitzel",
+      "line": "Fastfood",
+      "tags": ["schnitzel", "schwein", "fastfood", "comfort", "deutsch", "production-fit"],
+      "evidence": [{"source": "sodexo2025", "kind": "popular"}]
+    },
+    {
+      "name": "Plant-based Burger",
+      "line": "Fastfood",
+      "tags": ["vegan", "vegetarisch", "burger", "fastfood", "streetfood", "plant-forward"],
+      "evidence": [
+        {"source": "sodexo2025", "kind": "popular_variant"},
+        {"source": "cateringPlant2026", "kind": "featured"}
+      ]
+    },
+    {
+      "name": "Linsenbolognese",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "pasta", "bolognese", "linse", "plant-forward", "comfort"],
+      "evidence": [
+        {"source": "sodexo2025", "kind": "popular_variant"},
+        {"source": "cateringPlant2026", "kind": "featured"}
+      ]
+    },
+    {
+      "name": "Pflanzliche Frikadelle",
+      "line": "Fastfood",
+      "tags": ["vegan", "vegetarisch", "frikadelle", "fastfood", "comfort", "plant-forward"],
+      "evidence": [{"source": "cateringPlant2026", "kind": "featured"}]
+    },
+    {
+      "name": "Seitan-Gyros",
+      "line": "Fastfood",
+      "tags": ["vegan", "vegetarisch", "gyros", "fastfood", "streetfood", "plant-forward"],
+      "evidence": [{"source": "cateringPlant2026", "kind": "featured"}]
+    },
+    {
+      "name": "Sellerie-Cordon-Bleu",
+      "line": "Fastfood",
+      "tags": ["vegan", "vegetarisch", "cordon-bleu", "schnitzel", "fastfood", "plant-forward"],
+      "evidence": [{"source": "cateringPlant2026", "kind": "featured"}]
+    },
+    {
+      "name": "Pflanzlicher Fleischkäse",
+      "line": "Fastfood",
+      "tags": ["vegan", "vegetarisch", "fleischkaese", "fastfood", "comfort", "plant-forward"],
+      "evidence": [{"source": "cateringPlant2026", "kind": "featured"}]
+    },
+    {
+      "name": "Pilz-Gulasch",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "pilz", "gulasch", "comfort", "plant-forward"],
+      "evidence": [{"source": "cateringPlant2026", "kind": "featured"}]
+    },
+    {
+      "name": "Kichererbsen-Tofu-Curry",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "kichererbse", "tofu", "curry", "protein", "plant-forward"],
+      "evidence": [{"source": "cateringPlant2026", "kind": "featured"}]
+    },
+    {
+      "name": "Vegane Kartoffelpfanne",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "kartoffel", "pfanne", "plant-forward"],
+      "evidence": [{"source": "cateringPlant2026", "kind": "featured"}]
+    },
+    {
+      "name": "Bohnen Stroganoff-Polenta",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "bohne", "stroganoff", "polenta", "plant-forward"],
+      "evidence": [{"source": "kluehVeganuary2026", "kind": "campaign_menu"}]
+    },
+    {
+      "name": "Gersten Biryani",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "gerste", "biryani", "indisch", "plant-forward"],
+      "evidence": [{"source": "kluehVeganuary2026", "kind": "campaign_menu"}]
+    },
+    {
+      "name": "Gnocchi Pfanne",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "gnocchi", "pfanne", "plant-forward"],
+      "evidence": [{"source": "kluehVeganuary2026", "kind": "campaign_menu"}]
+    },
+    {
+      "name": "Kartoffel-Gröstel mit Rote-Bete-Remoulade",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "kartoffel", "rote-bete", "plant-forward"],
+      "evidence": [{"source": "kluehVeganuary2026", "kind": "campaign_menu"}]
+    },
+    {
+      "name": "Linsen Lasagne",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "linse", "lasagne", "pasta", "comfort", "plant-forward"],
+      "evidence": [{"source": "kluehVeganuary2026", "kind": "campaign_menu"}]
+    },
+    {
+      "name": "Szegediner-Schupfnudeln",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "schupfnudeln", "comfort", "plant-forward"],
+      "evidence": [{"source": "kluehVeganuary2026", "kind": "campaign_menu"}]
+    },
+    {
+      "name": "Wirsing Bortsch",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "wirsing", "suppe", "bortsch", "plant-forward"],
+      "evidence": [{"source": "kluehVeganuary2026", "kind": "campaign_menu"}]
+    },
+    {
+      "name": "Greek Bowl mit Gyros-Tofu",
+      "line": "Grünwerk",
+      "tags": ["vegetarisch", "bowl", "tofu", "griechisch", "plant-forward", "office-fit"],
+      "evidence": [{"source": "kluehSummer2026", "kind": "podium", "rank": 1}]
+    },
+    {
+      "name": "Fancy Feta Bowl",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "bowl", "linse", "süßkartoffel", "plant-forward", "office-fit"],
+      "evidence": [{"source": "kluehSummer2026", "kind": "podium", "rank": 2}]
+    },
+    {
+      "name": "Asian Sun Bowl",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "bowl", "quinoa", "kichererbse", "asiatisch", "plant-forward", "office-fit"],
+      "evidence": [{"source": "kluehSummer2026", "kind": "podium", "rank": 3}]
+    },
+    {
+      "name": "Orient Bowl mit Falafel",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "bowl", "falafel", "bulgur", "tahini", "plant-forward", "office-fit"],
+      "evidence": [{"source": "kluehSummer2026", "kind": "campaign_menu"}]
+    },
+    {
+      "name": "Crunch & Roots Bowl",
+      "line": "Grünwerk",
+      "tags": ["vegetarisch", "bowl", "pilz", "couscous", "crunch", "plant-forward", "office-fit"],
+      "evidence": [{"source": "kluehSummer2026", "kind": "campaign_menu"}]
+    },
+    {
+      "name": "Plant-based Pho mit Edamame & Tofu",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "pho", "tofu", "edamame", "asiatisch", "protein", "plant-forward"],
+      "evidence": [{"source": "aramarkProtein2026", "kind": "campaign_menu"}]
+    },
+    {
+      "name": "Panzanella mit Schafskäse",
+      "line": "Grünwerk",
+      "tags": ["vegetarisch", "salat", "brot", "schafskaese", "protein", "mediterran"],
+      "evidence": [{"source": "aramarkProtein2026", "kind": "campaign_menu"}]
+    },
+    {
+      "name": "Penne mit Plant-based Bolognese",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "pasta", "bolognese", "plant-forward"],
+      "evidence": [{"source": "sodexoGoodBytz", "kind": "current_menu"}]
+    },
+    {
+      "name": "Pilzrisotto",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "pilz", "risotto", "plant-forward"],
+      "evidence": [{"source": "sodexoGoodBytz", "kind": "current_menu"}]
+    },
+    {
+      "name": "Plant-based Caesar-Bowl",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "bowl", "salat", "plant-forward", "office-fit"],
+      "evidence": [{"source": "sodexoGoodBytz", "kind": "current_menu"}]
+    },
+    {
+      "name": "Erdnuss-Udon-Stir-Fry",
+      "line": "Grünwerk",
+      "tags": ["vegan", "vegetarisch", "udon", "nudeln", "asiatisch", "erdnuss", "plant-forward"],
+      "evidence": [{"source": "sodexoGoodBytz", "kind": "current_menu"}]
+    },
+    {
+      "name": "Pulled Chicken BBQ Burger",
+      "line": "Fastfood",
+      "tags": ["burger", "geflügel", "fastfood", "streetfood", "bbq", "production-fit"],
+      "evidence": [{"source": "kluehFast2022", "kind": "featured"}]
+    },
+    {
+      "name": "Hot Dog",
+      "line": "Fastfood",
+      "tags": ["hotdog", "wurst", "fastfood", "streetfood", "production-fit"],
+      "evidence": [{"source": "kluehFast2022", "kind": "featured"}]
+    }
+  ],
+  "automation": {
+    "enabled": true,
+    "cadence": "weekly",
+    "weekday": "Sunday",
+    "timezone": "Europe/Berlin",
+    "last_run": "2026-08-23",
+    "mode": "trusted-source fetch + tag normalization"
+  }
+}
